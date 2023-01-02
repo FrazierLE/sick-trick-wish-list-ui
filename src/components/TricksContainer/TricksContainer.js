@@ -2,7 +2,6 @@ import React from 'react'
 import Trick from '../Trick/Trick'
 
 function TricksContainer(tricks) {
-  console.log('TRICKS', tricks)
   const trickList = tricks.tricks.map(item => {
       return (< Trick 
         key={item.id}

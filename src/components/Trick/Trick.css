@@ -1,0 +1,9 @@
+.trick-item {
+  color: black;
+  border: 1px solid black;
+  background: ghostwhite;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
