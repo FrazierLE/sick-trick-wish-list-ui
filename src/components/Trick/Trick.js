@@ -5,6 +5,7 @@ function Trick({ id, name, obstacle, stance, tutorial}) {
   return (
     <div className='trick-item'>
       <h2>{stance} {name}</h2>
+      <h3>{obstacle}</h3>
       <a href={tutorial}>Link to tutorial: {tutorial}</a>
     </div>
   )
